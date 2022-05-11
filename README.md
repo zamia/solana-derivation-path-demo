@@ -4,8 +4,8 @@ Show the difference between solana-cli and Phantom/Slope wallets regarding gener
 ## Usage
 
 ```
-npm i
-npm run keypair
+# npm i
+# npm run keypair
 ```
 This repo demostrates the difference methods used by solana-cli and other wallets:
 
