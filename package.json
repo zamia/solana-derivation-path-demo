@@ -6,13 +6,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "keypair": "node scripts/solana-keypair.js"
+    "keypair": "node scripts/solana-keypair.js",
+    "swap": "node scripts/orca-swap-test.js",
+    "sign": "node scripts/nacl-sign-test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@orca-so/sdk": "^1.2.24",
     "@solana/web3.js": "^1.41.4",
     "bip39": "^3.0.4",
-    "ed25519-hd-key": "^1.2.0"
+    "bs58": "^5.0.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "decimal.js": "^10.3.1",
+    "ed25519-hd-key": "^1.2.0",
+    "tweetnacl": "^1.0.3"
   }
 }
